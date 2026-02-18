@@ -67,6 +67,7 @@ export const fullBlastDrinks = {
   "Nuclear Nectars": ["Nuke Nectar", "Fallout Fizz", "Blast Brew", "Mega Meltdown"]
 };
 
+
 // src/constants/drinks.ts
 // src/constants/drinks.ts - Complete allDrinks with catchy names
 
@@ -825,13 +826,13 @@ export const allDrinksData: Record<
 
 export const categoryColors: Record<string, string> = {
   "chill-vibes":
-    "bg-gradient-to-br from-emerald-500/95 to-teal-600/95 text-emerald-100 shadow-emerald-500/50",
+    "bg-gradient-to-br from-emerald-500/20 to-teal-600/20 text-emerald-100/65 shadow-emerald-500/50",
   "buzz-mode":
-    "bg-gradient-to-br from-sky-500/95 via-cyan-500/80 to-violet-600/95 text-cyan-100 shadow-cyan-400/60",
+    "bg-gradient-to-br from-sky-500/20 via-cyan-500/20 to-violet-600/65 text-cyan-100/65 shadow-cyan-400/50",
   "party-starter":
-    "bg-gradient-to-br from-rose-500/95 via-fuchsia-500/90 to-pink-600/95 text-pink-100 shadow-pink-400/60",
+    "bg-gradient-to-br from-rose-500/20 via-fuchsia-500/20 to-pink-600/65 text-pink-100/65 shadow-pink-400/50",
   "full-blast":
-    "bg-gradient-to-br from-orange-500/95 via-red-500/90 to-amber-600/95 text-orange-100 shadow-orange-400/70",
+    "bg-gradient-to-br from-orange-500/20 via-red-500/20 to-amber-600/95 text-orange-100/65 shadow-orange-400/50",
 };
 
 

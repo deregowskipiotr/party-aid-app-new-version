@@ -70,7 +70,7 @@ const DrinkCard = ({
             onClick={() => setFlipped(false)}
           >
             <motion.div
-              className={`relative w-full max-w-3xl md:h-[650px] h-[85vh] overflow-y-auto rounded-md p-8 ${bgColor} backdrop-blur-xl border-2 border-white/20 shadow-2xl`}
+              className={`relative w-full max-w-3xl md:h-[650px] h-[85vh] overflow-y-auto rounded-md p-8 ${bgColor} backdrop-blur-[20px] border border-white/30 shadow-2xl`}
               initial={{  opacity: 0, y: 20 }}
               animate={{  opacity: 1, y: 0 }}
               exit={{  opacity: 0, y: 20 }}
