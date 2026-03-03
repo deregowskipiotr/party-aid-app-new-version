@@ -15,7 +15,7 @@ const MoodButtons = ({
   routeMap,
   onClick,
   containerClassName = "grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl w-full",
-  buttonClassName = "px-8 py-4 h-16 md:h-24 rounded-xl backdrop-blur-md border border-white/20 bg-white/5 text-white/80 font-medium cursor-pointer",
+  buttonClassName = "px-6 py-3 h-12 md:h-16 rounded-xl backdrop-blur-md border border-white/20 bg-white/5 text-white/80 font-medium cursor-pointer",
 }: MoodButtonsProps) => {
   const navigate = useNavigate();
 
@@ -38,8 +38,8 @@ const MoodButtons = ({
         hidden: {},
         visible: {
           transition: {
-            staggerChildren: 0.12,
-            delayChildren: 0,
+            staggerChildren: 0.1,
+            delayChildren: 0.9,
           },
         },
       }}

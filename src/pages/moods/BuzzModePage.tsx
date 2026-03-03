@@ -13,7 +13,7 @@ const BuzzModePage = () => {
           className="text-4xl md:text-5xl font-bold mb-8 md:mb-14 text-white/80"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           Barten<span className="text-indigo-400">Day</span> HQ
         </motion.h1>
@@ -22,7 +22,7 @@ const BuzzModePage = () => {
           className=" text-md md:text-lg text-gray-400 md:max-w-4xl w-full mb-8 font-light mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
         >
           Hey buzz buddy, I see those eyes lighting up already! You're ready for
           that perfect energy kick, right? Let me pour you something that'll
@@ -33,7 +33,7 @@ const BuzzModePage = () => {
           className="text-xl md:text-3xl text-indigo-400 md:max-w-4xl w-full mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
         >
           Feel the buzz? Grab one and electrify your night!
         </motion.p>

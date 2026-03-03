@@ -19,7 +19,7 @@ const BackButton = forwardRef<HTMLDivElement, BackButtonProps>(function BackButt
     to,
     containerClassName = "md:max-w-md",
     buttonClassName =
-      "px-10 md:px-8 h-14 rounded-xl backdrop-blur-md border border-white/20 bg-white/5 text-white/80 font-medium cursor-pointer flex items-center",
+      "px-6 md:px-6 h-10 md:h-11 rounded-xl backdrop-blur-md border border-white/20 bg-white/5 text-white/80 font-medium cursor-pointer flex items-center",
     className,
     buttonProps,
     ...rest
@@ -66,7 +66,7 @@ const BackButton = forwardRef<HTMLDivElement, BackButtonProps>(function BackButt
       className={outerClasses}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, delay: 0.5 }}
+      transition={{ duration: 0.6, delay: 1.2 }}
       {...(rest as unknown as React.ComponentProps<typeof motion.div>)}
     >
       <motion.button

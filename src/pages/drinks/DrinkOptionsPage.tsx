@@ -29,7 +29,7 @@ const DrinkOptionsPage = () => {
           className="text-4xl md:text-5xl font-bold text-white/80 mb-6"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           Barten<span className="text-indigo-400">Day</span> HQ
         </motion.h1>
@@ -37,7 +37,7 @@ const DrinkOptionsPage = () => {
           className="text-md md:text-lg text-gray-400 mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
         >
           Your {realCategory} drinks from {mood} vibe are ready! Pick your
           poison.
@@ -51,7 +51,7 @@ const DrinkOptionsPage = () => {
               key={drink.name}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: 0.7 + index * 0.08 }}
             >
               <DrinkCard {...drink} />
             </motion.div>

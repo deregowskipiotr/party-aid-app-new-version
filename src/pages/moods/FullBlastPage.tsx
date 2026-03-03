@@ -13,7 +13,7 @@ const FullBlastPage = () => {
           className="text-4xl md:text-5xl font-bold mb-8 md:mb-14 text-white/80"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           Barten<span className="text-indigo-400">Day</span> HQ
         </motion.h1>
@@ -22,7 +22,7 @@ const FullBlastPage = () => {
           className="text-md md:text-lg text-gray-400 md:max-w-4xl w-full mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
         >
           Full blast maniac, you're here to wreck the place aren't ya? Love that
           chaos energy, boss! Pick your nuclear weapon and let's blow this night
@@ -33,7 +33,7 @@ const FullBlastPage = () => {
           className="text-xl md:text-3xl text-indigo-400 md:max-w-4xl w-full mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
         >
           Ready to explode? Pick your chaos and party hard!
         </motion.p>

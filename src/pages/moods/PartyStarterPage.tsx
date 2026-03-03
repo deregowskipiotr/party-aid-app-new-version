@@ -13,7 +13,7 @@ const PartyStarterPage = () => {
           className="text-4xl md:text-5xl font-bold mb-8 md:mb-14 text-white/80"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           Barten<span className="text-indigo-400">Day</span> HQ
         </motion.h1>
@@ -22,7 +22,7 @@ const PartyStarterPage = () => {
           className="text-md md:text-lg text-gray-400 md:max-w-4xl w-full mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
         >
           Yo party igniter, I knew you'd show up to get this going! The crowd's
           waiting for your spark, my friend. Time to launch those dancefloor
@@ -33,7 +33,7 @@ const PartyStarterPage = () => {
           className="text-xl md:text-3xl text-indigo-400 md:max-w-4xl w-full mb-8 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
         >
           Time to ignite! Choose your spark and hit the dancefloor!
         </motion.p>

@@ -12,7 +12,7 @@ const HeroSection = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: shouldReduceMotion ? 0 : 0.8,
+        duration: shouldReduceMotion ? 0 : 0.6,
         ease: [0.25, 0.46, 0.45, 0.94] as const,
       },
     },
@@ -24,7 +24,7 @@ const HeroSection = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: shouldReduceMotion ? 0 : 0.8,
+        duration: shouldReduceMotion ? 0 : 0.6,
         delay: shouldReduceMotion ? 0 : delay,
         ease: [0.25, 0.46, 0.45, 0.94] as const,
       },
@@ -49,7 +49,7 @@ const HeroSection = () => {
           variants={paragraphVariants}
           initial="hidden"
           animate="visible"
-          custom={0.3}
+          custom={0.35}
         >
           Yo, listen up! I'm the ghost of Derby parties past, your personal
           Chaos Cocktail Commander. These ain't your grandma's drinks - these
@@ -64,7 +64,7 @@ const HeroSection = () => {
           variants={paragraphVariants}
           initial="hidden"
           animate="visible"
-          custom={0.5}
+          custom={0.6}
         >
           Choose your Vibe and let's get mixing!
         </motion.p>
