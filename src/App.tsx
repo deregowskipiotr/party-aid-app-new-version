@@ -14,6 +14,7 @@ const App = () => {
         style={{
           backgroundImage: "url('/images/bg-bar.jpg')",
           filter: "brightness(0.25)",
+          animation: "bgFadeIn 0.6s ease-out forwards",
         }}
       ></div>
       <div className="relative z-10">

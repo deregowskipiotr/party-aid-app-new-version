@@ -9,6 +9,7 @@ html {
 body {
   min-height: 100dvh; /* Dynamic viewport height */
   overscroll-behavior: none;
+  background-color: #0a0a0f; /* Dark fallback before bg image loads */
 }
 
 #root {
@@ -18,5 +19,9 @@ body {
 
 @theme {
   --font-main: "Merriweather", serif;
- 
+}
+
+@keyframes bgFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
